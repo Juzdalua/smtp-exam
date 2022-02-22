@@ -1,0 +1,28 @@
+{
+  "name": "smtp-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juzdalua/smtp-exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juzdalua/smtp-exam/issues"
+  },
+  "homepage": "https://github.com/Juzdalua/smtp-exam#readme",
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
